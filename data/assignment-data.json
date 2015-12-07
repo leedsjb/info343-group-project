@@ -4,55 +4,64 @@
     "name": "Critter Safari",
     "description": "Create a game in the style of rock, paper, scissors where animals interact and have rock, paper, scissors battles.",
     "due": "1444543200000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=1"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=1",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw1.html"
   },
   {
     "id": "2",
     "name": "MVC with Shapes",
     "description": "Learn the Model-View-Controller framework by drawing shapes.",
     "due":"1445580000000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=2"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=2",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw2.html"
   },
    {
     "id": "3",
     "name": "MVC with Diamonds and Plusses",
     "description": "Learn the Model-View-Controller framework by drawing shapes.",
     "due":"1446879600000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=3"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=3",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw3.html"
   },
    {
     "id": "4",
     "name": "Text-based Adventure Game",
     "description": "Learn how to work with File I/O by creating a text-based adventure game defined by .txt files.",
     "due":"1448089200000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=4"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=4",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw4.html"
   },
    {
     "id": "5",
     "name": "A Really Big Integer",
     "description": "Create a class to handle large integers and learn about the binary number system.",
     "due":"1448953200000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=5"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=5",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw5.html"
   },
    {
     "id": "6",
     "name": "Anagram Solver",
     "description": "Use recursive backtracing to find all possible anagrams of a word or phrase.",
     "due":"1449558000000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=6"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=6",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw6.html"
   },
    {
     "id": "7",
     "name": "File Compression with the Huffman Algorithm",
     "description": "Use binary trees and priority queues to compress a text file.",
     "due":"1450162800000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=7"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=7",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw7.html"
+
   },
    {
     "id": "7X",
     "name": "Extra Credit: An Improvement to the Huffman Assignment",
     "description": "Consolidate the code file and binary file from Assignment 7",
     "due":"1450162800000",
-    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=8"
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=8",
+    "detailURL":"http://seattlecentral.edu/~flepeint/java143/hw7ExtraCredit.html"
   }
 ]

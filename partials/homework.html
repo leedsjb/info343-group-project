@@ -6,9 +6,13 @@
 <div class="row">
 	<div class="well" ng-repeat="assignment in assignments">
 		<h2>{{assignment.name}}</h2>
-		<p>{{assignment.description}}<p>
+		<p>{{assignment.description}}</p>
+		<p>Due {{assignment.due | date:"MM/dd/yyyy 'at' h:mma"}}</p>
 		<a ng-href={{assignment.submitURL}}>
-			<button class="btn btn-submit">Submit Assignment {{id}}</button>
+			<button class="btn btn-submit">Submit Assignment {{assignment.id}}</button>
+		</a>
+		<a ng-href={{assignment.submitURL}}>
+			<button class="btn btn-submit">Assignment Detail</button>
 		</a>
 	</div>
 </div>

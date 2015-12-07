@@ -9,21 +9,36 @@ nav {
 	position: fixed;
 	font-size: 16px;
 	z-index: 1;
+
 }
 
 li {
 	float: left;
 	list-style: none;
-	padding-top: 0.5em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-bottom: 0.5em;
 }
 
 .navbar {
 	padding-top: 0.5em;
+	background-color: #008ec4;
 }
 
+.navbar li {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.navbar a {
+	color: #FFFFFF;
+	margin:0;
+	padding-top: 100%;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right:15px;
+}
+
+.navbar a:hover {
+	background-color: #00597A;
+	text-decoration: none;
+}
 
 
 table, th, td {

@@ -24,7 +24,7 @@ angular.module('143app', ['ui.router'])
 		.state('homework', {
 			url: '/homework',
 			templateUrl: 'partials/homework.html',
-			//controller: 'DetailCtrl'
+			controller: 'AssignmentCtrl'
 		})
 		.state('resources', {
 			url: '/resources',
@@ -33,7 +33,9 @@ angular.module('143app', ['ui.router'])
 		})
 })
 
-// For product listing page
-.controller('toBeNamedCtrl',['$scope', function($scope){
-	
+// For assignments page
+.controller('AssignmentCtrl',['$scope', '$http',function($scope, $http){
+	$http.get('data/assignment-data.json').then(function(response){
+		$scope.assignments = response.data;
+	});
 }])

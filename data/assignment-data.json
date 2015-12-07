@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Critter Safari",
+    "description": "Create a game in the style of rock, paper, scissors where animals interact and have rock, paper, scissors battles.",
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=1"
+  },
+  {
+    "id": "2",
+    "name": "MVC with Shapes",
+    "description": "Learn the Model-View-Controller framework by drawing shapes.",
+    "submitURL": "http://flepeint.ccfaculty.org/cgi-bin/java143/turninForm.cgi?hw=2"
+  }
+]

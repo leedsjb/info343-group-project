@@ -1,5 +1,14 @@
+<div class="header">
+	<h1>Homework</h1>
+</div>
 
 
-<div class="header container">
-	<h1> Homework </h1>
+<div class="row">
+	<div class="well" ng-repeat="assignment in assignments">
+		<h2>{{assignment.name}}</h2>
+		<p>{{assignment.description}}<p>
+		<a ng-href={{assignment.submitURL}}>
+			<button class="btn btn-submit">Submit Assignment {{id}}</button>
+		</a>
+	</div>
 </div>

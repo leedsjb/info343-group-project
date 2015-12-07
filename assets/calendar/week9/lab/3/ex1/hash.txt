@@ -1,0 +1,36 @@
+Linear probing: 
+Bucket 0: 9679
+Bucket 1: 4371
+Bucket 2: 1989
+Bucket 3: 1323
+Bucket 4: 6173
+Bucket 5: 4344
+Bucket 6: empty
+Bucket 7: empty
+Bucket 8: empty
+Bucket 9: 4199
+
+Quadratic probing: 
+Bucket 0: 9679
+Bucket 1: 4371
+Bucket 2: empty
+Bucket 3: 1323
+Bucket 4: 6173
+Bucket 5: 4344
+Bucket 6: empty
+Bucket 7: empty
+Bucket 8: 1989
+Bucket 9: 4199
+
+Separate chaining: 
+Bucket 0: empty
+Bucket 1: 4371 
+Bucket 2: empty
+Bucket 3: 1323 6173 
+Bucket 4: 4344 
+Bucket 5: empty
+Bucket 6: empty
+Bucket 7: empty
+Bucket 8: empty
+Bucket 9: 4199 9679 1989 
+

@@ -9,13 +9,19 @@
 <div class="calendar-row row container" ng-repeat="week in weeks">
 	<h3> Week {{week.number}} </h3>
     <div class="col-md-3" ng-repeat="day in week.days">
-        <h4> {{day.day}} - {{day.special}}</h4>
+        <h4> {{day.day}} 
+        	<span ng-if="day.lab.title">-</span> <a ng-href={{day.lab.link}}>{{day.lab.title}}</a>
+        	<span ng-if="day.special">-</span> 
+        	{{day.special}}
+        </h4>
     	<p> {{day.topic}} </p>
     	<dl>
 	    	<dt ng-if="day.slides"> Slides </dt>
 	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> slides (PDF) </a> </dd>
-    		<dt ng-if="day.code"> Code </dt>
-    			<dd ng-repeat="code in day.code"> <a ng-href={{code.link}}> {{code.title}} </a> </dd>
+    		<dt ng-if="day.code"> Example Code </dt>
+    			<span ng-repeat="code in day.code"> 
+    				<a ng-href={{code.link}}> {{code.title}}</a><span ng-if="!$last">, </span> 
+    			</span>
 	    </dl>
     </div>
 </div>

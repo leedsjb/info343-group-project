@@ -1,26 +1,88 @@
-[
-  {
-    "number": "1",
-    "days": [
-      {"day": "Tuesday","topic": "Welcome: what to expect in this class. Inheritance",
-      "code": [{"title": "Person", "link": "assets/calendar/week1/day1/Person.java"}, 
-              {"title": "PersonStudentTest", "link": "assets/calendar/week1/day1/PersonStudentTest.java"}, 
-              {"title": "Student", "link": "assets/calendar/week1/day1/Student.java"}]
+[  
+  {  
+    "number":"1",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "topic":"Welcome: what to expect in this class. Inheritance",
+        "code":[  
+          {  
+            "title":"Person",
+            "link":"assets/calendar/week1/day1/Person.java"
+          },
+          {  
+            "title":"PersonStudentTest",
+            "link":"assets/calendar/week1/day1/PersonStudentTest.java"
+          },
+          {  
+            "title":"Student",
+            "link":"assets/calendar/week1/day1/Student.java"
+          }
+        ]
       },
-      {"day": "Tuesday Lab","topic": "Interfaces, abstract classes, unit testing"},
-      {"day": "Thursday", "topic": "Inheritance"},
-      {"day": "Friday", "topic": "Inheritance"}
+      {  
+        "day":"Tuesday Lab",
+        "topic":"Interfaces, abstract classes, unit testing",
+        "code":[  
+          {  
+            "title":"Discount Bill",
+            "link":"assets/calendar/week1/lab/2/DiscountBill.java"
+          }
+        ]
+      },
+      {  
+        "day":"Thursday",
+        "topic":"Inheritance"
+      },
+      {  
+        "day":"Friday",
+        "topic":"Inheritance"
+      }
     ]
   },
-  {
-    "number": "2",
-    "days":[
-      {"day": "Tuesday","topic": "Equals",
-       "slides": [{"link": "assets/calendar/week2/day1/CSC142NN.pdf"}]
+  {  
+    "number":"2",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "topic":"Equals",
+        "slides":[  
+          {  
+            "link":"assets/calendar/week2/day1/CSC142NN.pdf"
+          }
+        ]
       },
-      {"day": "Tuesday Lab","topic": "equals"},
-      {"day": "Thursday", "topic": "Clone: deep copy vs shallow copy, Swing, generics, events"},
-      {"day": "Friday", "topic": "Clone: deep copy vs shallow copy"}
+      {  
+        "day":"Tuesday Lab",
+        "topic":"equals"
+      },
+      {  
+        "day":"Thursday",
+        "topic":"Clone: deep copy vs shallow copy, Swing, generics, events",
+        "special": "Quiz #1"
+      },
+      {  
+        "day":"Friday",
+        "topic":"Clone: deep copy vs shallow copy",
+        "code":[  
+          {  
+            "title":"Car",
+            "link":"assets/calendar/week2/day3/Car.java"
+          },
+          {  
+            "title":"CarTest",
+            "link":"assets/calendar/week2/day3/CarTest.java"
+          },
+          {  
+            "title":"FancyCar",
+            "link":"assets/calendar/week2/day3/FancyCar.java"
+          },
+          {  
+            "title":"Person",
+            "link":"assets/calendar/week1/day1/Person.java"
+          }
+        ]
+      }
     ]
   }
 ]

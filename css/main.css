@@ -86,8 +86,10 @@ footer {
 	}
 	.row {
 		margin-top: 2em;
-		margin-left: 5%;
 		padding: 1em;
+	}
+	.calendar-row {
+		margin-left: 5%;
 	}
 	.row h3 {
 		margin-top: 0em;

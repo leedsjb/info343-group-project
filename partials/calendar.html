@@ -6,10 +6,10 @@
 </div>
 
 
-<div class="row container" ng-repeat="week in weeks">
+<div class="calendar-row row container" ng-repeat="week in weeks">
 	<h3> Week {{week.number}} </h3>
     <div class="col-md-3" ng-repeat="day in week.days">
-        <h4> {{day.day}} </h4>
+        <h4> {{day.day}} - {{day.special}}</h4>
     	<p> {{day.topic}} </p>
     	<dl>
 	    	<dt ng-if="day.slides"> Slides </dt>

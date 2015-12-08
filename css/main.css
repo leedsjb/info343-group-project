@@ -1,4 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
 body {
 	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
@@ -14,10 +15,6 @@ nav {
 
 }
 
-li {
-	float: left;
-	list-style: none;
-}
 
 .navbar {
 	padding-top: 0.5em;
@@ -29,6 +26,8 @@ li {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-right:1em;
+	list-style: none;	
+	float: left;
 }
 
 .navbar ul {
@@ -47,6 +46,12 @@ li {
 .navbar a:hover {
 	background-color: #00597A;
 	text-decoration: none;
+}
+
+.box {
+	text-align: justify;
+	border-bottom: 1px gray solid;
+	padding: 20px;
 }
 
 #logo {
@@ -72,8 +77,8 @@ main {
 
 footer {
 	background-color: #0080bc;
-	padding-top: 20px;
-	padding-bottom:20px;
+	padding-top: 15px;
+	padding-bottom:5px;
 	color: #FFFFFF;
 	font-weight: lighter;
 }

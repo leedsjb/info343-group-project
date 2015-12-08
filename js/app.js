@@ -19,7 +19,7 @@ angular.module('143app', ['ui.router'])
 		.state('calendar', {
 			url: '/calendar',
 			templateUrl: 'partials/calendar.html',
-			//controller: 'OrderCtrl'
+			controller: 'CalendarCtrl'
 		})
 		.state('homework', {
 			url: '/homework',
@@ -37,5 +37,11 @@ angular.module('143app', ['ui.router'])
 .controller('AssignmentCtrl',['$scope', '$http',function($scope, $http){
 	$http.get('data/assignment-data.json').then(function(response){
 		$scope.assignments = response.data;
+	});
+}])
+
+.controller('CalendarCtrl', ['$scope', '$http', function($scope, $http) {
+	$http.get('data/calendar-data.json').then(function(response) {
+		$scope.weeks = response.data;
 	});
 }])

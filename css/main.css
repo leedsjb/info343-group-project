@@ -30,6 +30,10 @@ table, th, td {
    border: 1px solid #ddd;
 }
 
+.row {
+	background-color: lightblue;
+	margin-top: 2em;
+}
 
 
 
@@ -37,6 +41,14 @@ table, th, td {
 	.table {
 		width: 90%;
 		margin-left: 5%;
+	}
+	.row {
+		margin-top: 2em;
+		margin-left: 5%;
+		padding: 1em;
+	}
+	.row h3 {
+		margin-top: 0em;
 	}
 }
 

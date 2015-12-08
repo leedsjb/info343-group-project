@@ -5,30 +5,17 @@
 
 </div>
 
-<div class="container-fluid"> 
-	<table class="table">
-		<tr>
-			<th>Week</th>
-			<th>Tuesday </th>
-			<th>Tuesday Lab</th>
-			<th>Thursday</th>
-			<th>Friday</th>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>Date <br> Notes <br> Links
-			</td>
-			<td>i can't automate this no json file :(</td>
-			<td>asdf</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>manually put in content?</td>
-			<td>asdf</td>
-			<td>asdf</td>
-			<td></td>
-		</tr>
 
-	</table>
+<div class="row container" ng-repeat="week in weeks">
+	<h3> Week {{week.number}} </h3>
+    <div class="col-md-3" ng-repeat="day in week.days">
+        <h4> {{day.day}} </h4>
+    	<p> {{day.topic}} </p>
+    	<dl>
+	    	<dt ng-if="day.slides"> Slides </dt>
+	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> slides (PDF) </a> </dd>
+    		<dt ng-if="day.code"> Code </dt>
+    			<dd ng-repeat="code in day.code"> <a ng-href={{code.link}}> {{code.title}} </a> </dd>
+	    </dl>
+    </div>
 </div>

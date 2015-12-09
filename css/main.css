@@ -81,9 +81,14 @@ main {
 footer {
 	background-color: #0080bc;
 	padding-top: 15px;
+	padding-left: 15px; 
 	padding-bottom:5px;
 	color: #FFFFFF;
 	font-weight: lighter;
+}
+footer a, footer a:hover {
+	color: #FFFFFF;
+
 }
 
 

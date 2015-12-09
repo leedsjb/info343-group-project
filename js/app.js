@@ -47,6 +47,7 @@ angular.module('143app', ['ui.router'])
 }])
 // For calendar page
 .controller('CalendarCtrl', ['$scope', '$http', function($scope, $http) {
+	$scope.titleFilter = '';
 	$http.get('data/calendar-data.json').then(function(response) {
 		$scope.weeks = response.data;
 	});

@@ -100,6 +100,10 @@ main {
 	font-size: 1.5em;
 }
 
+#socialMedia a {
+	margin-right: 0.5em;
+}
+
 footer {
 	background-color: #0080bc;
 	padding-top: 15px;

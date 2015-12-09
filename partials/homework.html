@@ -1,34 +1,35 @@
 <div class="container">
 	<div class="row">
 		<h1>Homework</h1>
-		<div class="row thumbnail" ng-repeat="assignment in assignments">
+	</div>	
 
-			<div class="col-md-1">	
-				<h1><span class="label label-default">{{assignment.id}}</span></h1>
-			</div>
-			
-			<div class="col-md-8">
-				<h2>{{assignment.name}}</h2>
-				<p>{{assignment.description}}</p>
-				<p>Due {{assignment.due | date:"MM/dd/yyyy 'at' h:mma"}}</p>
-			</div>
-			
-			<div class="col-md-3">
+	<div class="row thumbnail" ng-repeat="assignment in assignments">
 
-				<div class="btn-group-vertical" role="group" aria-label="...">
+		<div class="col-md-1">	
+			<h1><span class="label label-default">{{assignment.id}}</span></h1>
+		</div>
+		
+		<div class="col-md-8">
+			<h2>{{assignment.name}}</h2>
+			<p>{{assignment.description}}</p>
+			<p>Due {{assignment.due | date:"MM/dd/yyyy 'at' h:mma"}}</p>
+		</div>
+		
+		<div class="col-md-3">
 
-					<button type="button" class="btn btn-default">
-						<a ng-href={{assignment.submitURL}}>
-							Submit Assignment {{assignment.id}}
-						</a>
-					</button>
-					<button type="button" class="btn btn-default">
-						<a ng-href={{assignment.detailURL}}>
-							Assignment Detail
-						</a>
-					</button>
-						
-				</div>
+			<div class="btn-group-vertical" role="group" aria-label="...">
+
+				<button type="button" class="btn btn-default">
+					<a ng-href={{assignment.submitURL}}>
+						Submit Assignment {{assignment.id}}
+					</a>
+				</button>
+				<button type="button" class="btn btn-default">
+					<a ng-href={{assignment.detailURL}}>
+						Assignment Detail
+					</a>
+				</button>
+					
 			</div>
 		</div>
 	</div>

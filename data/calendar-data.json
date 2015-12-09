@@ -229,7 +229,7 @@
       {  
         "day":"Tuesday",
         "topic":"Recursion",
-        "special":"Quiz #1"
+        "special":"Quiz #2"
       },
       {  
         "day":"Tuesday",
@@ -256,7 +256,6 @@
       {  
         "day":"Thursday",
         "topic":" Exceptions, streams",
-        "special":"Quiz #1",
         "slides":[  
           {  
             "link":"assets/calendar/week4/day2/classNotes5_24.pdf"

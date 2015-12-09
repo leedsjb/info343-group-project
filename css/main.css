@@ -23,9 +23,10 @@ h3 , strong {
 }
 
 .navbar {
-	padding-top: 1em;
+	padding-top: 0.5em;
 	background-color: #0080bc;
-	margin-bottom: 0.5em;
+	border: none;
+	border-radius: 0px;
 }
 
 .navbar-toggle {
@@ -48,16 +49,19 @@ h3 , strong {
 	color: #FFFFFF;
 	margin:0;
 	padding-top: 18px;
-	padding-bottom: 12px;
+	padding-bottom: 18px;
 	padding-left: 15px;
-	padding-right:15px;
+	padding-right: 15px;
 }
 
 .navbar a:hover {
 	background-color: #00597A;
 	text-decoration: none;
 }
-
+.navbar a:focus {
+	background-color: #00597A;
+	text-decoration: none;
+}
 .box {
 	text-align: justify;
 }

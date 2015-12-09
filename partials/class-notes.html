@@ -24,8 +24,9 @@
 				    <li><a ng-href="{{lecture.powerpointUrl}}">Download PowerPoint</a></li>
   				</ul>
 			</div>
-
 		</div>
+
+		<p ng-hide="(lectures | filter:query).length">No results found...</p>
 </div>
 
 

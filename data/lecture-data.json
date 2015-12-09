@@ -1,18 +1,18 @@
 [
 	{
 		"title" : "Modeling",
-		"powerpointUrl" : "/assets/notes/pdf/01-modeling.ppt",
-		"pdfUrl": "/assets/notes/powerpoint/01-modeling.pdf"
+		"powerpointUrl" : "/assets/notes/power/01-modeling.ppt",
+		"pdfUrl": "/assets/notes/pdf/01-modeling.pdf"
 	},
 	{
 		"title" : "Interfaces",
-		"powerpointUrl" : "/assets/notes/pdf/02-interfaces.ppt",
-		"pdfUrl": "/assets/notes/powerpoint/02-interfaces.pdf"
+		"powerpointUrl" : "/assets/notes/power/02-interfaces.ppt",
+		"pdfUrl": "/assets/notes/pdf/02-interfaces.pdf"
 	},
 	{
 		"title" : "Inheritance",
-		"powerpointUrl" : "/assets/notes/pdf/03-inheritance.ppt",
-		"pdfUrl": "/assets/notes/powerpoint/03-inheritance.pdf"
+		"powerpointUrl" : "/assets/notes/power/03-inheritance.ppt",
+		"pdfUrl": "/assets/notes/pdf/03-inheritance.pdf"
 	}
 
 ]

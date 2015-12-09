@@ -4,7 +4,6 @@
 body {
 	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
 	font-weight: normal;
-	padding-top: 50px;
 }
 
 nav {
@@ -15,8 +14,13 @@ nav {
 }
 
 .navbar {
-	padding-top: 0.5em;
+	padding-top: 1em;
 	background-color: #0080bc;
+	margin-bottom: 0.5em;
+}
+
+.navbar-toggle {
+	margin-top: 0em;
 }
 
 .navbar li {
@@ -24,8 +28,7 @@ nav {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-right:1em;
-	list-style: none;	
-	float: left;
+	list-style: none;
 }
 
 .navbar ul {
@@ -48,8 +51,6 @@ nav {
 
 .box {
 	text-align: justify;
-	border-bottom: 1px gray solid;
-	padding: 20px;
 }
 
 #logo {
@@ -66,11 +67,15 @@ table, th, td {
 }
 
 .row {
-	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 main {
-	padding: 20px;
+	padding-left: 1em;
+}
+
+#content {
+	margin-bottom: 1em;
 }
 
 footer {
@@ -88,7 +93,6 @@ footer {
 		margin-left: 5%;
 	}
 	.row {
-		margin-top: 2em;
 		padding: 1em;
 	}
 	.calendar-row {
@@ -96,6 +100,12 @@ footer {
 	}
 	.row h3 {
 		margin-top: 0em;
+	}
+	.navbar ul li {
+		float: left;
+	}
+	main {
+		padding-left: 2em;
 	}
 }
 

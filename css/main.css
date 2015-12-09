@@ -13,11 +13,11 @@ nav {
 	z-index: 1;
 }
 
-hr {
+/*hr {
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}
+}*/
 .navbar {
 	padding-top: 1em;
 	background-color: #0080bc;
@@ -116,9 +116,9 @@ footer a, footer a:hover {
 	.row {
 		padding: 1em;
 	}
-	.calendar-row {
+	/*.calendar-row {
 		margin-left: 5%;
-	}
+	}*/
 	.row h3 {
 		margin-top: 0em;
 	}

@@ -1,29 +1,28 @@
-
-
 <div class="container">
 	<h1> Calendar </h1>
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
     <input type="text" name="search" placeholder="Filter by example code..." ng-model="titleFilter"></input>
 </div>
 
-
-<div class="calendar-row row container" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
-    <hr>
-	<h3> Week {{week.number}} </h3>
-    <div class="col-md-3" ng-repeat="day in week.days | filter: {code: {title: titleFilter}}">
-        <h4> {{day.day}} 
-        	<span ng-if="day.lab.title">-</span> <a ng-href={{day.lab.link}}>{{day.lab.title}}</a>
-        	<span ng-if="day.special">-</span> 
-        	{{day.special}}
-        </h4>
-    	<p> {{day.topic}} </p>
-    	<dl>
-	    	<dt ng-if="day.slides"> Slides </dt>
-	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> slides (PDF) </a> </dd>
-    		<dt ng-if="day.code"> Example Code </dt>
-    			<span ng-repeat="code in day.code"> 
-    				<a ng-href={{code.link}}> {{code.title}}</a><span ng-if="!$last">, </span> 
-    			</span>
-	    </dl>
+<div class="container"> <!-- moved container "up a level" outside of ng-repeat because each repeat shouldn't be its own container" -->
+    <div class="calendar-row row thumbnail" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
+        <!-- <hr> removed and replaced w/ Bootstrap thumbnail styling-->
+    	<h3> Week {{week.number}} </h3>
+        <div class="col-md-3" ng-repeat="day in week.days | filter: {code: {title: titleFilter}}">
+            <h4> {{day.day}} 
+            	<span ng-if="day.lab.title">-</span> <a ng-href={{day.lab.link}}>{{day.lab.title}}</a>
+            	<span ng-if="day.special">-</span> 
+            	{{day.special}}
+            </h4>
+        	<p> {{day.topic}} </p>
+        	<dl>
+    	    	<dt ng-if="day.slides"> Slides </dt>
+    	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> slides (PDF) </a> </dd>
+        		<dt ng-if="day.code"> Example Code </dt>
+        			<span ng-repeat="code in day.code"> 
+        				<a ng-href={{code.link}}> {{code.title}}</a><span ng-if="!$last">, </span> 
+        			</span>
+    	    </dl>
+        </div>
     </div>
 </div>

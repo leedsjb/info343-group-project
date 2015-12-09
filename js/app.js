@@ -58,6 +58,25 @@ angular.module('143app', ['ui.router'])
 	$http.get('data/calendar-data.json').then(function(response) {
 		$scope.weeks = response.data;
 	});
+
+	$scope.test = function(day){
+
+		if($scope.titleFilter.length == 0){
+			return true;
+		} else if (!day.code) { // if current day has no Java files
+			return false;
+		}else {
+
+			// for each object 
+			for(var i = 0 ; i < day.code.length ; i++){
+				if(day.code[i].title.toLowerCase().indexOf( $scope.titleFilter.toLowerCase() )  != -1){
+					return true;
+				}
+			}
+			return false;
+		}
+		// console.log(day);
+	};
 }])
 // For class notes page
 .controller('ClassNotesCtrl', ['$scope', '$http', function($scope, $http) {

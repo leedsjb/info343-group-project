@@ -26,11 +26,17 @@ angular.module('143app', ['ui.router'])
 			templateUrl: 'partials/homework.html',
 			controller: 'AssignmentCtrl'
 		})
+		.state('classNotes',{
+			url: '/class-notes',
+			templateUrl: 'partials/class-notes.html',
+			controller: 'ClassNotesCtrl'
+		})
 		.state('resources', {
 			url: '/resources',
 			templateUrl: 'partials/resources.html',
 			//controller: 'CartCtrl'
 		})
+
 })
 
 // For assignments page
@@ -39,9 +45,61 @@ angular.module('143app', ['ui.router'])
 		$scope.assignments = response.data;
 	});
 }])
-
+// For calendar page
 .controller('CalendarCtrl', ['$scope', '$http', function($scope, $http) {
 	$http.get('data/calendar-data.json').then(function(response) {
 		$scope.weeks = response.data;
 	});
 }])
+// For class notes page
+.controller('ClassNotesCtrl', ['$scope', '$http', function($scope, $http) {
+	$http.get('data/lecture-data.json').then(function(response){
+		$scope.lectures = response.data;
+	})
+}])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -86,11 +86,18 @@ footer {
 	color: #FFFFFF;
 	font-weight: lighter;
 }
+
 footer a, footer a:hover {
 	color: #FFFFFF;
 
 }
 
+/*use class for links you don't want to turn blue / turn blue and underline on hover*/
+
+.static-link, .static-link:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
 
 @media screen and (min-width: 768px) {
 	.table {

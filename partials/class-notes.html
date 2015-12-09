@@ -1,10 +1,44 @@
 <div class = "container">	
+	<div class="row">	
+		<i class="fa fa-search"></i><input type="text" ng-model="query">
+	</div>
 	<div class = "row">	
-		<div class = " row well" ng-repeat = "lecture in lectures">
-			{{lecture.title}}
-			{{lecture.powerpointUrl}}
-			{{lecture.pdfUrl}}
+		<div class = "row well" ng-repeat = "lecture in lectures | filter:query" >
+
+			<div class="col-md-9">
+			<h3>{{lecture.title}}</h3>
+			</div>
+
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-danger"><a class="static-link" ng-href="{{lecture.pdfUrl}}">View PDF</a></button>
+				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    <span class="caret"></span>
+				    <span class="sr-only">Toggle Dropdown</span>
+				 </button>
+				 <ul class="dropdown-menu">
+				    <li><a ng-href="{{lecture.powerpointUrl}}">Download PowerPoint</a></li>
+  				</ul>
+
+
+			</div>
+
 		</div>
 	</div>
 </div>
 
+
+
+<!-- <div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div> -->

@@ -4,13 +4,13 @@
 		<i class="fa fa-search"></i><input type="text" ng-model="query">
 	</div>
 	<div class = "row">	
-		<div class = "row well" ng-repeat = "lecture in lectures | filter:query" >
+		<div class = "row thumbnail" ng-repeat = "lecture in lectures | filter:query" >
 
-			<div class="col-md-9">
-			<h3>{{lecture.title}}</h3>
+			<div class="col-md-10">
+			<h4>{{lecture.title}}</h4>
 			</div>
 
-			<div class="btn-group" role="group" aria-label="...">
+			<div class="btn-group col-md-2" role="group" aria-label="...">
 				<button type="button" class="btn btn-danger"><a class="static-link" ng-href="{{lecture.pdfUrl}}">View PDF</a></button>
 				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    <span class="caret"></span>
@@ -19,8 +19,6 @@
 				 <ul class="dropdown-menu">
 				    <li><a ng-href="{{lecture.powerpointUrl}}">Download PowerPoint</a></li>
   				</ul>
-
-
 			</div>
 
 		</div>

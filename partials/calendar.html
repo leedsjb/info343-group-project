@@ -4,11 +4,11 @@
     <input type="text" name="search" placeholder="Filter by example code..." ng-model="titleFilter"></input>
 </div>
 
-<div class="container"> <!-- moved container "up a level" outside of ng-repeat because each repeat shouldn't be its own container" -->
+<div class="container"> 
     <div class="calendar-row row thumbnail" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
-        <!-- <hr> removed and replaced w/ Bootstrap thumbnail styling-->
     	<h3> Week {{week.number}} </h3>
-        <div class="col-md-3" ng-repeat="day in week.days | filter: {code: {title: titleFilter}}">
+        <!--  | filter: {code: {title: titleFilter}}  -->
+        <div class="col-md-3" ng-repeat="day in week.days">
             <h4> {{day.day}} 
             	<span ng-if="day.lab.title">-</span> <a ng-href={{day.lab.link}}>{{day.lab.title}}</a>
             	<span ng-if="day.special">-</span> 

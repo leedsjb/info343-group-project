@@ -46,6 +46,11 @@ angular.module('143app', ['ui.router'])
 	$http.get('data/assignment-data.json').then(function(response){
 		$scope.assignments = response.data;
 	});
+	console.log('hi');
+	$scope.hwLink = function(hw) {
+		window.location = hw;
+		console.log(hw);
+	}
 }])
 // For calendar page
 .controller('CalendarCtrl', ['$scope', '$http', function($scope, $http) {

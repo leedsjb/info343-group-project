@@ -8,9 +8,8 @@
         </div>
     </div>
 
-    <div class="calendar-row row thumbnail" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
+    <div class="calendar-row row thumbnail" ng-repeat="week in weeks | filter: titleFilter"> <!--  | filter: {days: {code: {title: titleFilter}} -->
 	    	<h3> Week {{week.number}} </h3>
-	        <!--  | filter: {code: {title: titleFilter}}  -->
 	        <div class="col-md-3" ng-repeat="day in week.days">
 	            <h4> {{day.day}} 
 	            	<span ng-if="day.lab.title">-</span> <a ng-href={{day.lab.link}}>{{day.lab.title}}</a>
@@ -30,5 +29,5 @@
         </div>
     </div>
 
-	<p ng-hide="(weeks | filter: {days: {code: {title: titleFilter}}}).length">No results found...</p>
+	<p ng-hide="(weeks | filter: titleFilter).length">No results found...</p>
 </div>

@@ -19,15 +19,11 @@
 
 			<div class="btn-group-vertical" role="group" aria-label="...">
 
-				<button type="button" class="btn btn-default">
-					<a ng-href={{assignment.submitURL}}>
+				<button type="button" class="btn btn-primary" ng-click="hwLink(assignment.submitURL)">
 						Submit Assignment {{assignment.id}}
-					</a>
 				</button>
-				<button type="button" class="btn btn-default">
-					<a ng-href={{assignment.detailURL}}>
+				<button type="button" class="btn btn-default" ng-click="hwLink(assignment.detailURL)">
 						Assignment Detail
-					</a>
 				</button>
 					
 			</div>

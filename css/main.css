@@ -96,6 +96,10 @@ main {
 	margin-right: 1em;
 }
 
+#socialMedia {
+	font-size: 1.5em;
+}
+
 footer {
 	background-color: #0080bc;
 	padding-top: 15px;

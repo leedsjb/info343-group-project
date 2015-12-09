@@ -29,7 +29,7 @@
         },
         "code":[  
           {  
-            "title":"Discount Bill",
+            "title":"DiscountBill",
             "link":"assets/calendar/week1/lab/2/DiscountBill.java"
           }
         ]
@@ -143,7 +143,7 @@
         },
         "code":[  
           {  
-            "title":"Discount Bill",
+            "title":"FirstSwingApplication",
             "link":"assets/calendar/week3/lab/FirstSwingApplication.java"
           }
         ],

@@ -1,10 +1,13 @@
-<div class="container">
-	<h1> Calendar </h1>
-    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    <input type="text" name="search" placeholder="Filter by example code..." ng-model="titleFilter"></input>
-</div>
+<div class="container"> <!-- UPDATE: only one container is needed for the whole page -->
 
-<div class="container"> <!-- moved container "up a level" outside of ng-repeat because each repeat shouldn't be its own container" -->
+    <div class="row">
+    	<h1>Calendar</h1>
+        <div class="input-group">
+            <span class="input-group-addon" aria-hidden="true"><span class="glyphicon glyphicon-search"></span></span>
+            <input type="text" class="form-control" name="search" placeholder="Filter by example code..." ng-model="titleFilter"></input>
+        </div>
+    </div>
+
     <div class="calendar-row row thumbnail" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
         <!-- <hr> removed and replaced w/ Bootstrap thumbnail styling-->
     	<h3> Week {{week.number}} </h3>
@@ -25,4 +28,5 @@
     	    </dl>
         </div>
     </div>
+
 </div>

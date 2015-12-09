@@ -1,9 +1,13 @@
 <div class = "container">
-	<h1> Class Notes </h1>
+	
 	<div class="row">	
-		<i class="fa fa-search"></i><input type="text" ng-model="query">
+		<h1>Class Notes</h1>
+		<div class="input-group">
+        	<span class="input-group-addon" aria-hidden="true"><i class="fa fa-search"></i></span>
+        	<input type="text" class="form-control" placeholder="" ng-model="query"></input>
+    	</div>
 	</div>
-	<div class = "row">	
+
 		<div class = "row thumbnail" ng-repeat = "lecture in lectures | filter:query" >
 
 			<div class="col-md-10">
@@ -22,7 +26,6 @@
 			</div>
 
 		</div>
-	</div>
 </div>
 
 

@@ -1,5 +1,8 @@
 /*
-
+Brian Luu, Benjamin Leeds, Brittney Hoy, Brooks Lobe
+December  9 2015
+Info 343 B: Joel Ross
+.js file for Final Group Project
 */
 
 
@@ -34,7 +37,6 @@ angular.module('143app', ['ui.router'])
 		.state('resources', {
 			url: '/resources',
 			templateUrl: 'partials/resources.html',
-			//controller: 'CartCtrl'
 		})
 
 })

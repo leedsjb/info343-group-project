@@ -8,6 +8,7 @@
 
 
 <div class="calendar-row row container" ng-repeat="week in weeks | filter: {days: {code: {title: titleFilter}}}">
+    <hr>
 	<h3> Week {{week.number}} </h3>
     <div class="col-md-3" ng-repeat="day in week.days | filter: {code: {title: titleFilter}}">
         <h4> {{day.day}} 

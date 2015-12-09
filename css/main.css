@@ -13,6 +13,11 @@ nav {
 	z-index: 1;
 }
 
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
 .navbar {
 	padding-top: 1em;
 	background-color: #0080bc;
@@ -76,6 +81,7 @@ main {
 
 #content {
 	margin-bottom: 1em;
+	margin-right: 1em;
 }
 
 footer {
@@ -89,7 +95,6 @@ footer {
 
 footer a, footer a:hover {
 	color: #FFFFFF;
-
 }
 
 /*use class for links you don't want to turn blue / turn blue and underline on hover*/

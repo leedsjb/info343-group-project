@@ -63,6 +63,10 @@ hr {
 	padding-top: 2px;
 }
 
+#logo a:hover {
+	background-color: #0080bc;
+}
+
 .container-fluid {
 	padding-left: 0px;
 }

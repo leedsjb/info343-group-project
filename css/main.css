@@ -172,11 +172,15 @@ footer a, footer a:hover {
 	.calendar-col {
 		border-top: none;
 	}
+
 }
 
 @media screen and (min-width: 992px) {
 	ul {
 		margin-left: 3em;
+	}
+	#hwBtnCombo {
+		margin-top: 2em;
 	}
 }
 

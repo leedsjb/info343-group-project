@@ -133,5 +133,10 @@
 		"title" : "Hashsets",
 		"powerpointUrl" : "/assets/notes/power/21-hashsets.ppt",
 		"pdfUrl": "/assets/notes/pdf/21-hashsets.pdf"
+	},
+	{
+		"title" : "Hashsets - Extra Slides",
+		"powerpointUrl" : "/assets/notes/power/21-extra-hashing.ppt",
+		"pdfUrl": "/assets/notes/pdf/21-extra-hashing.pdf"
 	}
 ]

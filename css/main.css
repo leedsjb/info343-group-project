@@ -6,9 +6,9 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	background: #f7f9fa; 
+	padding-top: 60px;
 	padding-bottom: 90px;
 }
-
 
 nav {
 	width: 100%;

@@ -10,11 +10,11 @@
 
 		<div class = "row thumbnail" ng-repeat = "lecture in lectures | filter:query" >
 
-			<div class="col-md-10">
+			<div class="col-sm-8">
 			<h4>{{lecture.title}}</h4>
 			</div>
 
-			<div class="btn-group col-md-2" role="group" aria-label="...">
+			<!-- <div class="btn-group col-md-2" role="group" aria-label="...">
 				<button type="button" class="btn btn-danger"><a class="static-link" ng-href="{{lecture.pdfUrl}}">View PDF</a></button>
 				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    <span class="caret"></span>
@@ -23,7 +23,22 @@
 				 <ul class="dropdown-menu">
 				    <li><a ng-href="{{lecture.powerpointUrl}}">Download PowerPoint</a></li>
   				</ul>
+			</div> -->
+			
+			<button type="button" class="btn btn-danger" class="notesBtn">
+				<a class="static-link" ng-href="{{lecture.pdfUrl}}">View PDF</a>
+			</button>
+			
+
+			
+
+			
+			<button type="button" class="btn btn-danger" class="notesBtn">
+				<a class="static-link" ng-href="{{lecture.powerpointUrl}}">Save PowerPoint</a>
+			</button>
+			<div class="col-sm-1">
 			</div>
+
 		</div>
 
 		<p ng-hide="(lectures | filter:query).length">No results found...</p>

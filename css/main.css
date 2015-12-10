@@ -141,6 +141,10 @@ footer a, footer a:hover {
 	margin-bottom: 3em;
 }
 
+.notesBtn {
+	border: 1px solid;
+}
+
 /*use class for links you don't want to turn blue / turn blue and underline on hover*/
 
 .static-link, .static-link:hover {

@@ -4,6 +4,7 @@
     "days":[  
       {  
         "day":"Tuesday",
+        "date": "9/29",
         "topic":"Welcome: what to expect in this class. Inheritance",
         "code":[  
           {  
@@ -22,6 +23,7 @@
       },
       {  
         "day":"Tuesday",
+        "date": "9/29",
         "topic":"Interfaces, abstract classes, unit testing",
         "lab":{  
           "title":"Lab 1",
@@ -36,6 +38,7 @@
       },
       {  
         "day":"Thursday",
+        "date": "10/1",
         "topic":"Inheritance",
         "code":[  
           {  
@@ -83,6 +86,7 @@
     "days":[  
       {  
         "day":"Tuesday",
+        "date": "10/6",
         "topic":"Equals",
         "slides":[  
           {  
@@ -92,6 +96,7 @@
       },
       {  
         "day":"Tuesday",
+        "date": "10/6",
         "topic":"equals",
         "lab":{  
           "title":"Lab 2",
@@ -100,11 +105,13 @@
       },
       {  
         "day":"Thursday",
+        "date": "10/8",
         "topic":"Clone: deep copy vs shallow copy, Swing, generics, events",
         "special":"Quiz #1"
       },
       {  
         "day":"Friday",
+        "date": "10/9",
         "topic":"Clone: deep copy vs shallow copy",
         "code":[  
           {  
@@ -132,10 +139,12 @@
     "days":[  
       {  
         "day":"Tuesday",
+        "date": "10/13",
         "topic":"Quiz solution"
       },
       {  
         "day":"Tuesday",
+        "date": "10/13",
         "topic":"MVC, recursion, Swing, events",
         "lab":{  
           "title":"Lab 3",
@@ -155,6 +164,7 @@
       },
       {  
         "day":"Thursday",
+        "date": "10/15",
         "topic":"Model, View, Controller",
         "code":[  
           {  
@@ -181,6 +191,7 @@
       },
       {  
         "day":"Friday",
+        "date": "10/16",
         "topic":"Quiz #2 sample question",
         "code":[  
           {  
@@ -228,11 +239,13 @@
     "days":[  
       {  
         "day":"Tuesday",
+        "date": "10/20",
         "topic":"Recursion",
         "special":"Quiz #2"
       },
       {  
         "day":"Tuesday",
+        "date": "10/20",
         "topic":"Recursive data structure",
         "lab":{  
           "title":"Lab 4",
@@ -255,6 +268,7 @@
       },
       {  
         "day":"Thursday",
+        "date": "10/22",
         "topic":" Exceptions, streams",
         "slides":[  
           {  
@@ -286,6 +300,7 @@
       },
       {  
         "day":"Friday",
+        "date": "10/23",
         "topic":"",
         "code":[  
           {  

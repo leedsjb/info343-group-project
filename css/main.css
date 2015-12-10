@@ -145,9 +145,9 @@ footer a, footer a:hover {
 	border: 1px solid;
 }
 
-/*use class for links you don't want to turn blue / turn blue and underline on hover*/
+/*use class for links you don't want to turn blue and underline*/
 
-.static-link, .static-link:hover {
+.static-link:link, .static-link:hover, .static-link:visited, .static-link:active {
 	color: #FFFFFF;
 	text-decoration: none;
 }

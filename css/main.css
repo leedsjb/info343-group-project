@@ -128,6 +128,14 @@ footer a, footer a:hover {
 	margin-top: 1em;
 }
 
+.quiz {
+	color: red;
+}
+
+.calendar-col {
+	border-top: 1px solid #0080bc;
+}
+
 /*use class for links you don't want to turn blue / turn blue and underline on hover*/
 
 .static-link, .static-link:hover {
@@ -151,6 +159,9 @@ footer a, footer a:hover {
 	}
 	main {
 		padding-left: 2em;
+	}
+	.calendar-col {
+		border-top: none;
 	}
 }
 

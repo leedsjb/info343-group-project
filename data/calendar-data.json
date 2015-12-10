@@ -322,5 +322,432 @@
         ]
       }
     ]
+  },
+  {  
+    "number":"5",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "10/27",
+        "topic":"",
+        "special":"No Class"
+      },
+      {  
+        "day":"Tuesday",
+        "date": "10/27",
+        "topic":"Teaching Machine",
+        "special":"No Class",
+        "lab":{  
+          "title":"Lab 5",
+          "link":"http://seattlecentral.edu/~flepeint/java143/Lab5.html"
+        }
+      },
+      {  
+        "day":"Thursday",
+        "date": "10/29",
+        "topic":"File IO and recursion",
+        "code":[  
+          {  
+            "title":"FileExample",
+            "link":"assets/calendar/week5/day2/FileExample.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "10/30",
+        "topic":"Collections",
+        "code":[  
+          {  
+            "title":"IntroToCollections",
+            "link":"assets/calendar/week5/day3/IntroToCollections.java"
+          },
+          {  
+            "title":"HashMapExample",
+            "link":"assets/calendar/week5/day3/HashMapExample.java"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"6",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "11/3",
+        "topic":"Data Driven Programs, Exam Review",
+        "code":[  
+          {  
+            "title":"Container",
+            "link":"assets/calendar/week6/day1/Container.java"
+          },
+          {  
+            "title":"ContainerUser",
+            "link":"assets/calendar/week6/day1/ContainerUser.java"
+          },
+          {  
+            "title":"PracticeIt Example",
+            "link":"assets/calendar/week6/day1/PracticeItWriteSquares.java"
+          },
+          {  
+            "title":"Coding Bat: Recursion",
+            "link":"assets/calendar/week6/day1/CodingBatRecursion.java"
+          }
+        ],
+        "slides":[  
+          {  
+            "link":"assets/calendar/week6/day1/DataDrivenPrograms.doc"
+          }
+        ]
+      },
+      {  
+        "day":"Tuesday",
+        "date": "11/3",
+        "topic":"Teaching Machine",
+        "code":[  
+          {  
+            "title":"JavaReview.txt",
+            "link":"assets/calendar/week6/lab/JavaReview.txt"
+          },
+          {  
+            "title":"TMQuestion",
+            "link":"assets/calendar/week6/lab/TMQuestion.java"
+          },
+          {  
+            "title":"TMCourse",
+            "link":"assets/calendar/week6/lab/TMCourse.java"
+          },
+          {  
+            "title":"TMMain",
+            "link":"assets/calendar/week6/lab/TMMain.java"
+          }
+        ]
+      },
+      {  
+        "day":"Thursday",
+        "date": "11/5",
+        "topic":"Teaching Machine"
+      },
+      {  
+        "day":"Friday",
+        "date": "11/6",
+        "special":"Exam #1",
+        "code":[  
+          {  
+            "title":"Sample",
+            "link":"assets/calendar/week6/day3/Sample.pdf"
+          },
+          {  
+            "title":"Solution",
+            "link":"assets/calendar/week6/day3/Solution.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"7",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "11/10",
+        "topic":"ArrayList, Linked Lists"
+      },
+      {  
+        "day":"Tuesday",
+        "date": "11/10",
+        "topic":"Collections: ArrayList, Linked List",
+        "lab":{  
+          "title":"Lab 6",
+          "link":"http://seattlecentral.edu/~flepeint/java143/Lab6.html"
+        },
+        "code":[  
+          {  
+            "title":"MyArrayList",
+            "link":"assets/calendar/week7/lab/MyArrayList.txt"
+          },
+          {  
+            "title":"MyLinkedList",
+            "link":"assets/calendar/week7/lab/MyLinkedList.java"
+          },
+          {  
+            "title":"MyList",
+            "link":"assets/calendar/week7/lab/MyList.java"
+          },
+          {  
+            "title":"TestMyList",
+            "link":"assets/calendar/week7/lab/TestMyList.java"
+          }
+        ]
+      },
+      {  
+        "day":"Thursday",
+        "date": "11/12",
+        "topic":"Complexity",
+        "code":[  
+          {  
+            "title":"Examples",
+            "link":"assets/calendar/week7/lab/BigO.java"
+          },
+          {  
+            "title":"Solution",
+            "link":"assets/calendar/week7/lab/BigOSolution.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "11/13",
+        "special":"Quiz #3",
+        "code":[  
+          {  
+            "title":"Binary",
+            "link":"assets/calendar/week6/day3/Binary.java"
+          },
+          {  
+            "title":"TwosComplement",
+            "link":"assets/calendar/week6/day3/TwosComplement.java"
+          }
+        ],
+        "slides":[  
+          {  
+            "link":"assets/calendar/week7/day3/TwosComplement.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"8",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "11/17",
+        "topic":"Searching",
+        "code":[
+          {
+            "title":"BinarySearch",
+            "link":"assets/calendar/week8/day1/BinarySearch.java"
+          }
+        ]
+      },
+      {  
+        "day":"Tuesday",
+        "date": "11/17",
+        "topic":"2's Complement, Sorting",
+        "lab":{  
+          "title":"Lab 7 & 8",
+          "link":"http://seattlecentral.edu/~flepeint/java143/Lab7.html"
+        }
+      },
+      {  
+        "day":"Thursday",
+        "date": "11/19",
+        "topic":"Sorting, Quick Sort, Merge Sort",
+        "code":[  
+          {  
+            "title":"Sorting",
+            "link":"assets/calendar/week8/day2/SortingAlgorithms.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "11/20",
+        "topic":"Sorting, Exam Review, HW #4 Help",
+        "code":[  
+          {  
+            "title":"Exam Review: Program Example",
+            "link":"assets/calendar/week8/day3/Exam2Practice.java"
+          },
+          {  
+            "title":"HW #4 Help",
+            "link":"assets/calendar/week6/day3/Adventure.java"
+          },
+          {
+            "title":"Sorting: Neat Animations",
+            "link":"http://www.sorting-algorithms.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"9",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "11/24",
+        "topic":"Sorting, Exam Review"
+      },
+      {  
+        "day":"Tuesday",
+        "date": "11/24",
+        "topic":"Stacks",
+        "special":"Quiz #4",
+        "lab":{  
+          "title":"Lab 9",
+          "link":"http://seattlecentral.edu/~flepeint/java143/Lab9.html"
+        }
+      },
+      {  
+        "day":"Thursday",
+        "date": "11/26",
+        "special":"Thanksgiving",
+        "code":[  
+          {  
+            "title":"HW #5 Help: BigInt",
+            "link":"assets/calendar/week9/BigInt.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "11/27",
+        "special":"Thanksgiving",
+        "code":[  
+          {  
+            "title":"HW #5 Help: BigInt",
+            "link":"assets/calendar/week9/BigInt.java"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"10",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "12/1",
+        "topic":"Recursive Backtracking",
+        "code":[
+          {
+            "title":"Stack",
+            "link":"assets/calendar/week10/day1/Stack.java"
+          },
+          {
+            "title":"EmptyStackException",
+            "link":"assets/calendar/week10/day1/EmptyStackException.java"
+          },
+          {
+            "title":"PostfixInfixCalculator",
+            "link":"assets/calendar/week10/day1/PostfixInfixCalculator.java"
+          },
+          {
+            "title":"ExpressionFormatException",
+            "link":"assets/calendar/week10/day1/ExpressionFormatException.java"
+          }
+        ]
+      },
+      {  
+        "day":"Tuesday",
+        "date": "12/1",
+        "topic":"Stacks and Queues, Applications, Binary Search Trees",
+        "code":[
+          {
+            "title":"BSTree",
+            "link":"assets/calendar/week10/lab/BSTree.java"
+          }
+        ]
+      },
+      {  
+        "day":"Thursday",
+        "date": "12/3",
+        "special":"Exam #2",
+        "code":[  
+          {  
+            "title":"Sample",
+            "link":"assets/calendar/week10/day2/ex2practiceSample.pdf"
+          },
+          {  
+            "title":"Solution",
+            "link":"assets/calendar/week10/day2/ex2practiceSolution.pdf"
+          },
+          {  
+            "title":"BigO Examples",
+            "link":"assets/calendar/week10/day2/BigO.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "12/4",
+        "topic":"Trees Applications, Hashing, Hash Set",
+        "code":[  
+          {  
+            "title":"Tree Question",
+            "link":"http://seattlecentral.edu/~flepeint/java143/ClassExamples/TreeExample.html"
+          },
+          {  
+            "title":"Solution",
+            "link":"assets/calendar/week10/day3/Tree.java"
+          },
+          {  
+            "title":"Heap",
+            "link":"http://seattlecentral.edu/~flepeint/java143/ClassExamples/heap.html"
+          }
+        ]
+      }
+    ]
+  },
+  {  
+    "number":"11",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "12/8",
+        "topic":"Hash Set",
+        "code":[
+          {
+            "title":"Why a prime number?",
+            "link":"assets/calendar/week11/day1/HashAndPrimeNumber.java"
+          }
+        ]
+      },
+      {  
+        "day":"Tuesday",
+        "date": "12/8",
+        "topic":"Hash Set",
+        "lab":{
+            "title":"Lab 10",
+            "link":"http://seattlecentral.edu/~flepeint/java143/Lab10.html"
+        }
+      },
+      {  
+        "day":"Thursday",
+        "date": "12/10",
+        "special":"Quiz #5",
+        "topic":"Grammars, Language",
+        "code":[  
+          {  
+            "title":"Language",
+            "link":"assets/calendar/week11/day2/Language.java"
+          }
+        ]
+      },
+      {  
+        "day":"Friday",
+        "date": "12/11",
+        "topic":"Review"
+      }
+    ]
+  },
+  {  
+    "number":"12",
+    "days":[  
+      {  
+        "day":"Tuesday",
+        "date": "12/15",
+        "topic":"Exam 1pm - 3pm",
+        "special":"Final",
+        "code":[
+          {
+            "title":"None"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -136,6 +136,11 @@ footer a, footer a:hover {
 	border-top: 1px solid #0080bc;
 }
 
+#homeMid {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 /*use class for links you don't want to turn blue / turn blue and underline on hover*/
 
 .static-link, .static-link:hover {

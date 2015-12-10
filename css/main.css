@@ -6,6 +6,7 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	background: #f7f9fa; 
+	padding-bottom: 90px;
 }
 
 
@@ -179,6 +180,9 @@ footer a, footer a:hover {
 	}
 	.calendar-col {
 		border-top: none;
+	}
+	body {
+		padding-bottom: 60px;
 	}
 }
 

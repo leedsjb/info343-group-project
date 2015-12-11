@@ -80,6 +80,9 @@ angular.module('143app', ['ui.router'])
 	$http.get('data/lecture-data.json').then(function(response){
 		$scope.lectures = response.data;
 	})
+	$scope.notesLink = function(note) {
+		window.location = note;
+	}
 }])
 
 

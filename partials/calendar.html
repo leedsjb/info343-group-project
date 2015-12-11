@@ -20,7 +20,7 @@
                     {{day.topic}} </p>
 	        	<dl>
 	    	    	<dt ng-if="day.slides"> Slides </dt>
-	    	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> slides (PDF) </a> </dd>
+	    	    		<dd ng-repeat="slides in day.slides"> <a ng-href={{slides.link}}> Slides (PDF) </a> </dd>
 	        		<dt ng-if="day.code"> Example Code </dt>
 	        			<span ng-repeat="code in day.code"> 
 	        				<a ng-href={{code.link}}> {{code.title}}</a><span ng-if="!$last">, </span> 

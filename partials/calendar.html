@@ -30,5 +30,5 @@
         </div>
     </div>
 
-	<p ng-hide="(weeks | filter: titleFilter).length">No results found...</p>
+	<p ng-hide="(weeks | filter: {days: {code: {title: titleFilter}}}).length">No results found...</p>
 </div>

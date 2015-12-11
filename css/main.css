@@ -57,14 +57,6 @@ h3 , strong {
 	padding-right: 15px;
 }
 
-.navbar a:hover {
-	background-color: #00597A;
-	text-decoration: none;
-}
-.navbar a:focus {
-	background-color: #00597A;
-	text-decoration: none;
-}
 .box {
 	text-align: justify;
 }
@@ -74,7 +66,7 @@ h3 , strong {
 }
 
 #logo a:hover {
-	background-color: #0080bc;
+	text-decoration: none;
 }
 
 .container-fluid {
@@ -143,6 +135,9 @@ footer a, footer a:hover {
 	border: 1px solid;
 }
 
+.navNames:hover {
+	text-decoration: none;
+}
 /*use class for links you don't want to turn blue and underline*/
 
 .static-link:link, .static-link:hover, .static-link:visited, .static-link:active {
@@ -151,6 +146,12 @@ footer a, footer a:hover {
 }
 
 @media screen and (min-width: 768px) {
+	
+.navbar a:focus {
+	background-color: #00597A;
+	text-decoration: none;
+}
+
 	.table {
 		width: 90%;
 		margin-left: 5%;
@@ -166,6 +167,10 @@ footer a, footer a:hover {
 	}
 	main {
 		padding-left: 2em;
+	}
+	.navNames a:hover {
+		background-color: #00597A;
+		text-decoration: none;
 	}
 }
 
@@ -184,6 +189,14 @@ footer a, footer a:hover {
 	}
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (max-width: 768px) {
+	.navNames:hover {
+		background-color: #00597A;
+		width: 100%;
+		text-decoration: none;
+		margin: 0;
+	}
+	#navbar {
+		padding:0;
+	}
 }

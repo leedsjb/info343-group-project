@@ -6,137 +6,137 @@
 	},
 	{
 		"title" : "Interfaces",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/02-interfaces.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/02-interfaces.pdf"
+		"powerpointUrl" : "assets/notes/power/02-interfaces.ppt",
+		"pdfUrl": "assets/notes/pdf/02-interfaces.pdf"
 	},
 	{
 		"title" : "Inheritance",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/03-inheritance.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/03-inheritance.pdf"
+		"powerpointUrl" : "assets/notes/power/03-inheritance.ppt",
+		"pdfUrl": "assets/notes/pdf/03-inheritance.pdf"
 	},
 	{
 		"title" : "Inheritance - An Example",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/04-inheritance-example.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/04-inheritance-example.pdf"
+		"powerpointUrl" : "assets/notes/power/04-inheritance-example.ppt",
+		"pdfUrl": "assets/notes/pdf/04-inheritance-example.pdf"
 	},
 	{
 		"title" : "Abstract Classes",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/05-abstract.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/05-abstract.pdf"
+		"powerpointUrl" : "assets/notes/power/05-abstract.ppt",
+		"pdfUrl": "assets/notes/pdf/05-abstract.pdf"
 	},
 	{
 		"title" : "Abstract Classes - An Example",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/05b-shape-example.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/05b-shape-example.pdf"
+		"powerpointUrl" : "assets/notes/power/05b-shape-example.ppt",
+		"pdfUrl": "assets/notes/pdf/05b-shape-example.pdf"
 	},
 	{
 		"title" : "More about Inheritance",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/06-more-inheritance.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/06-more-inheritance.pdf"
+		"powerpointUrl" : "assets/notes/power/06-more-inheritance.ppt",
+		"pdfUrl": "assets/notes/pdf/06-more-inheritance.pdf"
 	},
 	{
 		"title" : "Introduction to Swing",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/07-swingintro.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/07-swingintro.pdf"
+		"powerpointUrl" : "assets/notes/power/07-swingintro.ppt",
+		"pdfUrl": "assets/notes/pdf/07-swingintro.pdf"
 	},
 	{
 		"title" : "Model/View Framework",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/08-ModelView.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/08-ModelView.pdf"
+		"powerpointUrl" : "assets/notes/power/08-ModelView.ppt",
+		"pdfUrl": "assets/notes/pdf/08-ModelView.pdf"
 	},
 	{
 		"title" : "Events",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/09-events.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/09-events.pdf"
+		"powerpointUrl" : "assets/notes/power/09-events.ppt",
+		"pdfUrl": "assets/notes/pdf/09-events.pdf"
 	},
 	{
 		"title" : "Exceptions",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/10-exceptions.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/10-exceptions.pdf"
+		"powerpointUrl" : "assets/notes/power/10-exceptions.ppt",
+		"pdfUrl": "assets/notes/pdf/10-exceptions.pdf"
 	},
 	{
 		"title" : "More Exceptions",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/11-more-exceptions.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/11-more-exceptions.pdf"
+		"powerpointUrl" : "assets/notes/power/11-more-exceptions.ppt",
+		"pdfUrl": "assets/notes/pdf/11-more-exceptions.pdf"
 	},
 	{
 		"title" : "Streams",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/12-streams.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/12-streams.pdf"
+		"powerpointUrl" : "assets/notes/power/12-streams.ppt",
+		"pdfUrl": "assets/notes/pdf/12-streams.pdf"
 	},
 	{
 		"title" : "Specifications",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/13-specifications.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/13-specifications.pdf"
+		"powerpointUrl" : "assets/notes/power/13-specifications.ppt",
+		"pdfUrl": "assets/notes/pdf/13-specifications.pdf"
 	},
 	{
 		"title" : "Collections",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/14-collections.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/14-collections.pdf"
+		"powerpointUrl" : "assets/notes/power/14-collections.ppt",
+		"pdfUrl": "assets/notes/pdf/14-collections.pdf"
 	},
 	{
 		"title" : "Array Lists",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/15-arraylists.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/15-arraylists.pdf"
+		"powerpointUrl" : "assets/notes/power/15-arraylists.ppt",
+		"pdfUrl": "assets/notes/pdf/15-arraylists.pdf"
 	},
 	{
 		"title" : "Linked Lists",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/16-linkedlists.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/16-linkedlists.pdf"
+		"powerpointUrl" : "assets/notes/power/16-linkedlists.ppt",
+		"pdfUrl": "assets/notes/pdf/16-linkedlists.pdf"
 	},
 	{
 		"title" : "Complexity",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/17-complexity.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/17-complexity.pdf"
+		"powerpointUrl" : "assets/notes/power/17-complexity.ppt",
+		"pdfUrl": "assets/notes/pdf/17-complexity.pdf"
 	},
 	{
 		"title" : "Searching and Recursion",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/18a-Searching-Recursion.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/18a-Searching-Recursion.pdf"
+		"powerpointUrl" : "assets/notes/power/18a-Searching-Recursion.ppt",
+		"pdfUrl": "assets/notes/pdf/18a-Searching-Recursion.pdf"
 	},
 	{
 		"title" : "Sorting",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/18b-Sorting.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/18b-Sorting.pdf"
+		"powerpointUrl" : "assets/notes/power/18b-Sorting.ppt",
+		"pdfUrl": "assets/notes/pdf/18b-Sorting.pdf"
 	},
 	{
 		"title" : "Stacks and Queues",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/19a-StacksAndQueues.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/19a-StacksAndQueues.pdf"
+		"powerpointUrl" : "assets/notes/power/19a-StacksAndQueues.ppt",
+		"pdfUrl": "assets/notes/pdf/19a-StacksAndQueues.pdf"
 	},
 	{
 		"title" : "Stacks and Queues - Applications",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/19b-SAndQ-applications.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/19b-SAndQ-applications.pdf"
+		"powerpointUrl" : "assets/notes/power/19b-SAndQ-applications.ppt",
+		"pdfUrl": "assets/notes/pdf/19b-SAndQ-applications.pdf"
 	},
 	{
 		"title" : "Introduction to Trees",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/20a-trees-basic.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/20a-trees-basic.pdf"
+		"powerpointUrl" : "assets/notes/power/20a-trees-basic.ppt",
+		"pdfUrl": "assets/notes/pdf/20a-trees-basic.pdf"
 	},
 	{
 		"title" : "Inner Classes",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/20b-InnerClasses.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/20b-InnerClasses.pdf"
+		"powerpointUrl" : "assets/notes/power/20b-InnerClasses.ppt",
+		"pdfUrl": "assets/notes/pdf/20b-InnerClasses.pdf"
 	},
 	{
 		"title" : "Binary Search Trees",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/20c-binary-search-trees.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/20c-binary-search-trees.pdf"
+		"powerpointUrl" : "assets/notes/power/20c-binary-search-trees.ppt",
+		"pdfUrl": "assets/notes/pdf/20c-binary-search-trees.pdf"
 	},
 	{
 		"title" : "Tree Applications",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/20d-tree-apps.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/20d-tree-apps.pdf"
+		"powerpointUrl" : "assets/notes/power/20d-tree-apps.ppt",
+		"pdfUrl": "assets/notes/pdf/20d-tree-apps.pdf"
 	},
 	{
 		"title" : "Hashsets",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/21-hashsets.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/21-hashsets.pdf"
+		"powerpointUrl" : "assets/notes/power/21-hashsets.ppt",
+		"pdfUrl": "assets/notes/pdf/21-hashsets.pdf"
 	},
 	{
 		"title" : "Hashsets - Extra Slides",
-		"powerpointUrl" : "leeds/info343/info343-group-project/assets/notes/power/21-extra-hashing.ppt",
-		"pdfUrl": "leeds/info343/info343-group-project/assets/notes/pdf/21-extra-hashing.pdf"
+		"powerpointUrl" : "assets/notes/power/21-extra-hashing.ppt",
+		"pdfUrl": "assets/notes/pdf/21-extra-hashing.pdf"
 	}
 ]

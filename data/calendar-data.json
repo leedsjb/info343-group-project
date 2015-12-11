@@ -5,7 +5,7 @@
       {  
         "day":"Tuesday",
         "date": "9/29",
-        "topic":"Welcome: what to expect in this class. Inheritance",
+        "topic":"Welcome, Inheritance",
         "code":[  
           {  
             "title":"Person",
@@ -24,7 +24,7 @@
       {  
         "day":"Tuesday",
         "date": "9/29",
-        "topic":"Interfaces, abstract classes, unit testing",
+        "topic":"Interfaces, Abstract Classes, Unit Testing",
         "lab":{  
           "title":"Lab 1",
           "link":"http://seattlecentral.edu/~flepeint/java143/Lab1.html"
@@ -77,6 +77,7 @@
       },
       {  
         "day":"Friday",
+        "date":"10/2",
         "topic":"Inheritance"
       }
     ]
@@ -97,7 +98,7 @@
       {  
         "day":"Tuesday",
         "date": "10/6",
-        "topic":"equals",
+        "topic":"Equals",
         "lab":{  
           "title":"Lab 2",
           "link":"http://seattlecentral.edu/~flepeint/java143/Lab2.html"
@@ -106,13 +107,13 @@
       {  
         "day":"Thursday",
         "date": "10/8",
-        "topic":"Clone: deep copy vs shallow copy, Swing, generics, events",
+        "topic":"Clone: Deep Copy vs Shallow Copy, Swing, Generics, Events",
         "special":"Quiz #1"
       },
       {  
         "day":"Friday",
         "date": "10/9",
-        "topic":"Clone: deep copy vs shallow copy",
+        "topic":"Clone: Deep Copy vs Shallow Copy",
         "code":[  
           {  
             "title":"Car",
@@ -140,12 +141,12 @@
       {  
         "day":"Tuesday",
         "date": "10/13",
-        "topic":"Quiz solution"
+        "topic":"Quiz Solution"
       },
       {  
         "day":"Tuesday",
         "date": "10/13",
-        "topic":"MVC, recursion, Swing, events",
+        "topic":"MVC, Recursion, Swing, Events",
         "lab":{  
           "title":"Lab 3",
           "link":"http://seattlecentral.edu/~flepeint/java143/Lab3.html"
@@ -192,7 +193,7 @@
       {  
         "day":"Friday",
         "date": "10/16",
-        "topic":"Quiz #2 sample question",
+        "topic":"Quiz #2 Sample Question",
         "code":[  
           {  
             "title":"Sample Quiz Question",
@@ -246,7 +247,7 @@
       {  
         "day":"Tuesday",
         "date": "10/20",
-        "topic":"Recursive data structure",
+        "topic":"Recursive Data Structure",
         "lab":{  
           "title":"Lab 4",
           "link":"http://seattlecentral.edu/~flepeint/java143/Lab4.html"
@@ -269,7 +270,7 @@
       {  
         "day":"Thursday",
         "date": "10/22",
-        "topic":" Exceptions, streams",
+        "topic":" Exceptions, Streams",
         "slides":[  
           {  
             "link":"assets/calendar/week4/day2/classNotes5_24.pdf"

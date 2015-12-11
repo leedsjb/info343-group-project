@@ -7,7 +7,6 @@ body {
 	font-weight: 400;
 	background: #f7f9fa; 
 	padding-top: 60px;
-	padding-bottom: 90px;
 }
 
 nav {
@@ -15,7 +14,6 @@ nav {
 	position: fixed;
 	font-size: 16px;
 	z-index: 1;
-
 }
 
 h1, h2 {
@@ -118,6 +116,7 @@ footer {
 	padding-bottom:5px;
 	color: #FFFFFF;
 	font-weight: lighter;
+	height: 90px;
 }
 
 footer a, footer a:hover {
@@ -181,8 +180,8 @@ footer a, footer a:hover {
 	.calendar-col {
 		border-top: none;
 	}
-	body {
-		padding-bottom: 60px;
+	footer {
+		height: 60px;
 	}
 }
 

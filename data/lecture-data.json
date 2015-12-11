@@ -1,8 +1,8 @@
 [
 	{
 		"title" : "Modeling",
-		"powerpointUrl" : "/assets/notes/power/01-modeling.ppt",
-		"pdfUrl": "/assets/notes/pdf/01-modeling.pdf"
+		"powerpointUrl" : "assets/notes/power/01-modeling.ppt",
+		"pdfUrl": "assets/notes/pdf/01-modeling.pdf"
 	},
 	{
 		"title" : "Interfaces",

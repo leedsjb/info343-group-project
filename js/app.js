@@ -46,10 +46,8 @@ angular.module('143app', ['ui.router'])
 	$http.get('data/assignment-data.json').then(function(response){
 		$scope.assignments = response.data;
 	});
-	console.log('hi');
 	$scope.hwLink = function(hw) {
 		window.location = hw;
-		console.log(hw);
 	}
 }])
 // For calendar page
@@ -75,7 +73,6 @@ angular.module('143app', ['ui.router'])
 			}
 			return false;
 		}
-		// console.log(day);
 	};
 }])
 // For class notes page

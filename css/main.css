@@ -146,6 +146,10 @@ main {
 .navNames:hover {
 	text-decoration: none;
 }
+
+.navNames a:hover {
+	text-decoration: none;
+}
 /*use class for links you don't want to turn blue and underline*/
 
 .static-link:link, .static-link:hover, .static-link:visited, .static-link:active {

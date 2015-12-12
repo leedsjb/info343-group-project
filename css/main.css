@@ -32,10 +32,6 @@ h3 , strong {
 	padding: 5px;
 }
 
-.navbar-toggle {
-	margin-top: 0em;
-}
-
 .navbar li {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	list-style: none;

@@ -95,12 +95,9 @@ main {
 
 #socialMedia {
 	font-size: 1.5em;
-	float: right;
 }
 
 #socialMedia a {
-		/*margin-right: 0.5em;*/
-	float: right;
 	padding-left: 0.3em;
 	padding-right: 0.3em;
 }
@@ -112,6 +109,7 @@ footer {
 	padding-bottom:5px;
 	color: #FFFFFF;
 	font-weight: lighter;
+	height: 80px;
 }
 
 footer a, footer a:hover {
@@ -179,6 +177,9 @@ footer a, footer a:hover {
 }
 
 @media screen and (min-width: 992px) {
+	#socialMedia a {
+		float: right;
+	}
 	ul {
 		margin-left: 3em;
 	}
@@ -187,9 +188,6 @@ footer a, footer a:hover {
 	}
 	.calendar-col {
 		border-top: none;
-	}
-	footer {
-		height: 60px;
 	}
 }
 

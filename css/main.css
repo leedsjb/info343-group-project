@@ -56,6 +56,7 @@ h3 , strong {
 	width: 100%;
 	display: inline-block;
 	margin: 0;
+	text-decoration: none;
 }
 .box {
 	text-align: justify;
@@ -143,9 +144,6 @@ main {
 	border: 1px solid;
 }
 
-.navNames:hover {
-	text-decoration: none;
-}
 /*use class for links you don't want to turn blue and underline*/
 
 .static-link:link, .static-link:hover, .static-link:visited, .static-link:active {
